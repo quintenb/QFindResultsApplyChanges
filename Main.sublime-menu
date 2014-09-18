@@ -6,7 +6,7 @@
 				[
 					{"caption":"-"},
 					{
-						"caption": "Find Results - Apply Changes",
+						"caption": "Find Results - QQApply Changes",
 						"command": "find_results_apply_changes"
 					}
 				]
