@@ -113,4 +113,4 @@ class FindResultsApplyChangesCommand(sublime_plugin.TextCommand):
 		return open(f, 'r', newline='').read()
 
 	def write(self, f, c):
-		open(f, 'w+', encoding='utf8', newline='').write(str(c))
+		open(f, 'w+', encoding='utf8', newline='').write(c.encode('utf-8'))
